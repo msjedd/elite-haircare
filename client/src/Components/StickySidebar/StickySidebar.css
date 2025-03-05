@@ -1,0 +1,70 @@
+.sticky-sidebar {
+  position: sticky;
+  right: 10px;
+  top: 100px;
+  /* width: 30%; */
+
+  background: #0e5f45;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* margin-top: 3rem; */
+}
+
+.sticky-sidebar h3 {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  /* text-align: center; */
+}
+
+.sticky-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sticky-sidebar li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.shop-now-btn {
+  background: #fff;
+  color: #0e5f45;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.shop-now-btn:hover {
+  background: #b0dbcd;
+}
+
+@media (max-width: 768px) {
+  .sticky-sidebar ul {
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .sticky-sidebar {
+    font-size: 0.7rem;
+  }
+
+  .sticky-sidebar img {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+
+  .shop-now-btn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+}

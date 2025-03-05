@@ -1,0 +1,29 @@
+.order-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 1rem;
+  background-color: #f9f9f9;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.order-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.order-list {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.total {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}

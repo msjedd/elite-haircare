@@ -1,0 +1,58 @@
+{
+  "title": "Terms of Service",
+  "intro": "Welcome to Elite Haircare! These Terms of Service govern your use of our website, products, and services provided by Elite Haircare. By accessing or using our website, you agree to comply with and be bound by these Terms. Please read them carefully. If you do not agree to these Terms, you must not use our website or purchase our products. We reserve the right to modify these Terms at any time, and any changes will be effective immediately upon posting on this page. We encourage you to review this page periodically to stay informed about any updates.",
+  "sections": [
+    {
+      "heading": "1. Use of the Website",
+      "content": "By using our website, you agree to provide accurate and complete information when making a purchase or creating an account, not use the website for any illegal or unauthorized purpose and comply with all applicable local, state, and national laws regarding online conduct. You must be at least 18 years old or have parental consent to use this site."
+    },
+    {
+      "heading": "2. Account Creation",
+      "content": "To make a purchase or access certain features, you may be required to create an account with us. You agree to keep your login information (such as username and password) confidential and secure, notify us immediately of any unauthorized use of your account, and provide truthful, accurate, and up-to-date information when creating your account and making purchases. Elite Haircare reserves the right to suspend or terminate accounts that violate these Terms."
+    },
+    {
+      "heading": "3. Products and Pricing",
+      "content": "Product Descriptions: We strive to ensure that the descriptions, images, and details of products on our website are accurate. However, we do not guarantee that they are error-free or complete. We reserve the right to modify product details without prior notice.\n\nPricing: Prices for products are listed in [naira and dollars] and may be subject to change without notice. Elite Haircare is not responsible for any errors in pricing and reserves the right to correct such errors.\n\nProduct Availability: Products are subject to availability. In the event that a product is out of stock or unavailable, we will notify you and either offer a refund or suggest an alternative."
+    },
+    {
+      "heading": "4. Orders and Payment",
+      "content": "By placing an order on our website, you are offering to purchase products subject to these Terms. All orders are subject to acceptance by Elite Haircare. Upon order confirmation, you will receive an email with your order details.\n\nPayment: We accept various forms of payment, including credit/debit cards and other payment methods as specified on our website. You agree to pay for all charges incurred in connection with your purchase, including any applicable taxes, fees, and shipping costs.\n\nOrder Cancellation: Once an order is processed and shipped, it cannot be canceled. Please review your order carefully before finalizing your purchase."
+    },
+    {
+      "heading": "5. Shipping and Delivery",
+      "content": "Processing Time: Orders are typically processed within 1-2 working days. You will receive a tracking number or phone number once your order has been shipped or sent out.\n\nShipping Methods: We offer different shipping methods for both domestic and international orders. Shipping fees are calculated based on the shipping method and your delivery location.\n\nDelivery Time: Delivery times vary depending on your location and the shipping method selected. We are not responsible for delays caused by the courier or customs processing for international shipments.\n\nRisk of Loss: Once your order is shipped, you assume the risk of loss and title to the products. We are not responsible for any lost or stolen packages."
+    },
+    {
+      "heading": "6. Returns and Refunds",
+      "content": "Return Policy: If you are not satisfied with your purchase, we accept returns for unused and unopened products within 1 day from the date of delivery. Please contact our customer service team to initiate the return process.\n\nRefunds: Refunds will be processed once we receive and inspect the returned product. Please note that original shipping fees are non-refundable.\n\nExceptions: Some items may be non-returnable due to hygiene reasons (such as opened haircare products) or other conditions as outlined in our return policy."
+    },
+    {
+      "heading": "7. Privacy Policy",
+      "content": "Your privacy is important to us. Please review our [Privacy Policy] for information on how we collect, use, and protect your personal information."
+    },
+    {
+      "heading": "8. Limitation of Liability",
+      "content": "To the fullest extent permitted by law, Elite Haircare shall not be liable for any direct, indirect, incidental, special, or consequential damages, including but not limited to loss of profits or data, arising out of your use or inability to use our website or products, even if we have been advised of the possibility of such damages."
+    },
+    {
+      "heading": "9. Indemnification",
+      "content": "You agree to indemnify, defend, and hold harmless Elite Haircare, its affiliates, employees, and agents from any claims, damages, liabilities, or expenses (including legal fees) arising out of your use of our website, products, or violation of these Terms."
+    },
+    {
+      "heading": "10. Intellectual Property",
+      "content": "All content on the Elite Haircare website, including the logos, images, product names, and text, are the property of Elite Haircare and are protected by copyright, trademark, and other intellectual property laws. You may not use any of our intellectual property without our prior written consent."
+    },
+    {
+      "heading": "11. Governing Law",
+      "content": "These Terms and any disputes related to your use of the website or purchase of products will be governed by and construed in accordance with the laws of [Your Country], without regard to its conflict of law principles."
+    },
+    {
+      "heading": "12. Dispute Resolution",
+      "content": "Any disputes arising out of or relating to these Terms shall be resolved through binding arbitration in [Location], or, if necessary, in a court of competent jurisdiction. By agreeing to these Terms, you waive your right to a jury trial."
+    },
+    {
+      "heading": "13. Termination",
+      "content": "We reserve the right to suspend or terminate your account and access to our website at our sole discretion if you violate any of these Terms. Upon termination, your obligation to pay for any outstanding orders will survive."
+    }
+  ]
+}

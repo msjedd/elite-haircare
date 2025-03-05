@@ -1,0 +1,39 @@
+h1 {
+  font-size: 2rem;
+}
+
+.services-summary {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #fff;
+  margin-top: 2rem;
+}
+
+.services-summary h2 {
+  font-size: 1.8rem;
+  color: #0e5f45;
+  margin-bottom: 1rem;
+}
+
+.services-summary p {
+  font-size: 1.2rem;
+  color: #0e5f45;
+  max-width: 80%;
+  margin: 0 auto 1rem;
+}
+
+/* .book-now-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.book-now-btn:hover {
+  background: #cc5200;
+} */
