@@ -2,11 +2,11 @@ import "./Hero.css";
 import dark_arrow from "../../assets/dark_arrow.svg";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-import product_9 from "../../assets/product_9.jpg";
-import product_6 from "../../assets/product_6.jpg";
-import product_7 from "../../assets/product_7.jpg";
+import service_2333 from "../../assets/service_2333.jpg";
+import product_10 from "../../assets/product_10.jpg";
+import product_11 from "../../assets/product_11.jpg";
 
-const images = [product_9, product_6, product_7];
+const images = [service_2333, product_10, product_11];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

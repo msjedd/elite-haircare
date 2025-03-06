@@ -6,7 +6,7 @@ const Cart = () => {
   const { cart, removeFromCart, getTotalPrice, handleQuantityChange } =
     useCart();
   const { isClicked } = useCheckout();
-  console.log("Cart length:", cart.length);
+  // console.log("Cart length:", cart.length);
 
   return (
     <div className="cart-container">

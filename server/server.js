@@ -11,7 +11,6 @@ app.use(express.json());
 
 const PAYSTACK_SECRET = process.env.PAYSTACK_SECRET;
 
-// 🚀 Email Configuration
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -20,7 +19,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-// ✅ Verify Paystack Payment & Send Emails
 app.post("/api/paystack/verify", async (req, res) => {
   const { reference, email, fullname, cartItems, totalAmount } = req.body;
 
@@ -38,7 +36,6 @@ app.post("/api/paystack/verify", async (req, res) => {
         .json({ success: false, message: "Payment verification failed." });
     }
 
-    // ✅ Send Emails Simultaneously
     const emailResults = await Promise.allSettled([
       sendEmail(email, fullname, cartItems, totalAmount),
       sendEmail(
@@ -68,12 +65,10 @@ app.post("/api/paystack/verify", async (req, res) => {
   }
 });
 
-// ✅ Handle Service Bookings & Send Emails
 app.post("/api/bookings", async (req, res) => {
   const { fullname, email, whatsappNumber, date, time, service } = req.body;
 
   try {
-    // ✅ Send Booking Emails Simultaneously
     const emailResults = await Promise.allSettled([
       sendBookingEmail(
         email,
@@ -111,7 +106,6 @@ app.post("/api/bookings", async (req, res) => {
   }
 });
 
-// 📧 Generic Function to Send Emails
 const sendEmail = async (
   recipient,
   name,
@@ -147,7 +141,6 @@ const sendEmail = async (
   });
 };
 
-// 📧 Generic Function to Send Booking Emails
 const sendBookingEmail = async (
   recipient,
   name,
@@ -193,7 +186,6 @@ const sendBookingEmail = async (
   });
 };
 
-// 🛠 Function to Log Failed Emails
 const logFailedEmails = (results) => {
   const failedEmails = results.filter((res) => res.status === "rejected");
 
@@ -202,5 +194,62 @@ const logFailedEmails = (results) => {
   }
 };
 
-// 🚀 Start Server
+// ✅ Contact Form Submission
+app.post("/api/contact", async (req, res) => {
+  const { name, phone, message } = req.body;
+
+  if (!name || !phone || !message) {
+    return res
+      .status(400)
+      .json({ success: false, message: "All fields are required." });
+  }
+
+  try {
+    const emailResults = await Promise.allSettled([
+      sendContactEmail(
+        process.env.WEBSITE_OWNER_EMAIL,
+        name,
+        phone,
+        message
+        // true
+      ),
+      // sendContactEmail(name, phone, message, false),
+    ]);
+
+    logFailedEmails(emailResults);
+
+    return res.json({
+      success: true,
+      message: "Message sent successfully. We will get back to you shortly.",
+    });
+  } catch (error) {
+    console.error("Error processing contact form:", error);
+    res
+      .status(500)
+      .json({ success: false, message: "Error processing contact form" });
+  }
+});
+
+// ✅ Send Contact Form Emails
+const sendContactEmail = async (recipient, name, phone, message) => {
+  const subject = "New Contact Form Submission";
+
+  const body = `
+      <h2>New Message received!</h2>
+      <p>You have received a new contact message:</p>
+      <ul>
+        <li><strong>Name:</strong> ${name}</li>
+        <li><strong>Phone:</strong> ${phone}</li>
+        <li><strong>Message:</strong> ${message}</li>
+      </ul>
+    `;
+
+  await transporter.sendMail({
+    from: process.env.EMAIL_USER,
+    to: recipient,
+    subject,
+    html: body,
+  });
+};
+
 app.listen(5000, () => console.log("Server running on port 5000"));

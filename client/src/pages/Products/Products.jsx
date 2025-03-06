@@ -2,7 +2,7 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import FullProduct from "../../Components/FullProduct/FullProduct";
-import { products } from "../../data";
+import { products } from "../../data/data";
 import ProductPageHero from "../../Components/ProductPageHero/ProductPageHero";
 import Title from "../../Components/Title/Title";
 import FeaturedReviews from "../../Components/FeaturedReviews/FeaturedReviews";

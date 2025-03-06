@@ -3,6 +3,7 @@ import { useCart } from "../../Contexts/CartContext";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
+
   return (
     <div className="product-card ">
       <img src={product.image} alt={product.name} className="product-image" />

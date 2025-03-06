@@ -8,7 +8,6 @@ import Products from "../Components/Products/Products";
 import Contact from "../components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 
-import "../data";
 import Reviews from "../Components/Reviews/Reviews";
 
 const HomePage = () => {

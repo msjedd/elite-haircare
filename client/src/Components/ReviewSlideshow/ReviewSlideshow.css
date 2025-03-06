@@ -1,7 +1,8 @@
 .reviews-section {
   text-align: center;
-  /* padding: 2rem; */
-  /* background-color: #f9f9f9; */
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 0.5rem;
 }
 
 .review-slider {
@@ -13,10 +14,9 @@
 
 .review-slide {
   display: none;
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   background: white;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .review-slide.active {
@@ -37,7 +37,7 @@
 .review-controls {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   gap: 10px;
 }
 

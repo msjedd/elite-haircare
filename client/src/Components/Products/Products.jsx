@@ -1,6 +1,6 @@
 import "./Products.css";
 import white_arrow from "../../assets/white_arrow.png";
-import { products } from "../../data";
+import { products } from "../../data/data";
 import ProductCard from "../ProductCard/ProductCard";
 import { useCart } from "../../Contexts/CartContext";
 import { NavLink } from "react-router-dom";

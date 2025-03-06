@@ -4,7 +4,7 @@ import "./OrderList.css";
 
 const OrderList = () => {
   const { cart, getTotalPrice } = useCart();
-  console.log(cart);
+  // console.log(cart);
   return (
     <div className="order-list">
       <h1>Your Order</h1>

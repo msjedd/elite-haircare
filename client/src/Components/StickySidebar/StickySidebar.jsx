@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "../../data";
+import { products } from "../../data/data";
 import { NavLink } from "react-router-dom";
 import "./StickySidebar.css";
 

@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
-import "../data";
 
 const CartContext = createContext();
 
@@ -74,7 +73,7 @@ const CartProvider = ({ children }) => {
   }, [cart]);
 
   const showNotification = (message, e) => {
-    const { top, left, width } = event.target.getBoundingClientRect();
+    const { top, left, width } = e.target.getBoundingClientRect();
     setNotification(message);
     // setLastAddedProductId(productId);
     setNotificationPosition({
@@ -100,6 +99,8 @@ const CartProvider = ({ children }) => {
         notification,
         isNotificationVisible,
         notificationPosition,
+        setNotification,
+        showNotification,
         clearCart,
       }}
     >

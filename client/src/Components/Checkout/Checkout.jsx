@@ -10,7 +10,8 @@ const Checkout = () => {
   const { cart, getTotalPrice, clearCart } = useCart();
   const totalAmount = getTotalPrice();
   const { fullname, email, whatsappNumber, address } = formData;
-  const publicKey = "pk_test_ef8038b1870f29f34ee6f7d918c8b6752d1b4e6c"; // Replace with actual key
+  const publicKey = "pk_live_e9ef9d7446cf595b75be2e079f9e3fc247fd5856";
+  // const publicKey = "pk_test_ef8038b1870f29f34ee6f7d918c8b6752d1b4e6c"; // Replace with actual key
 
   const [loading, setLoading] = useState(false);
   const [popupMessage, setPopupMessage] = useState("");
