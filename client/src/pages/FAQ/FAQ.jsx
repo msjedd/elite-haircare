@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./FAQ.css";
-import Title from "../../components/Title/Title";
-import Footer from "../../components/Footer/Footer";
-import NavBar from "../../components/NavBar/NavBar";
+import Title from "../../Components/Title/Title";
+import Footer from "../../Components/Footer/Footer";
+import NavBar from "../..Components/NavBar/NavBar";
 
 const faqs = [
   {
