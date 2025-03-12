@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./FAQ.css";
 import Title from "../../Components/Title/Title";
 import Footer from "../../Components/Footer/Footer";
-import NavBar from "../..Components/NavBar/NavBar";
+import NavBar from "../../Components/Navbar/Navbar";
 
 const faqs = [
   {
