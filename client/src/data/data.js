@@ -2,10 +2,11 @@ import product_1 from "../assets/product_1.jpg";
 import product_2 from "../assets/product_2.jpg";
 import product_3 from "../assets/product_3.jpg";
 import product_4 from "../assets/product_4.jpg";
+import product_5 from "../assets/product_5.jpg";
 import product_6 from "../assets/product_6.jpg";
 import product_7 from "../assets/product_7.jpg";
+import product_8 from "../assets/product_8.jpeg";
 import product_9 from "../assets/product_9.jpg";
-import product_5 from "../assets/product_5.jpg";
 
 export const products = [
   {
@@ -103,6 +104,17 @@ export const products = [
     description:
       "Our anti-breakage haircare set is specifically designed to help prevent hair from breaking, thinning, or becoming brittle. These sets typically include products like shampoos and treatments that focus on strengthening the hair, making it more resilient to damage in the process of promoting hair growth. Here are the key benefits and what they’re formulated to do: Strengthen Hair Strands, Improve Elasticity, Moisturize and Nourishduce Damage from styling, Prevent Split Ends, Promote Healthier Hair Growth",
     price: 22000,
+  },
+
+  {
+    id: "8",
+    image: product_8,
+    name: "Hair Growth Set",
+    ingredients:
+      "Strenghtening black shampoo, Nourishing hair growth oil, Alma butter and Herbal hair growth tea.",
+    description:
+      "Our Hair Growth set is meant to support both the health of your scalp and the strength of your hair, promoting faster, thicker, and more robust hair growth. It’s ideal if you’re experiencing thinning, shedding, or want to give your hair a boost in growth.",
+    price: 24500,
   },
 
   {
