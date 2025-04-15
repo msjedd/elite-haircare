@@ -1,41 +1,47 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import "./FeaturedReviews.css";
+import featuredReview_1 from "../../assets/featured_review1.jpeg";
+import featuredReview_2 from "../../assets/featured_review2.jpeg";
+import featuredReview_3 from "../../assets/featured_review3.jpeg";
+import featuredReview_4 from "../../assets/featured_review4.jpeg";
+import featuredReview_5 from "../../assets/featured_review5.jpeg";
+import featuredReview_6 from "../../assets/featured_review6.jpeg";
 
 const featuredReviews = [
   {
     id: 1,
     name: "Sophia O.",
     review: "Absolutely love the service! My hair has never been healthier.",
-    image: "../../src/assets/featured_review1.jpeg",
+    image: featuredReview_1,
   },
   {
     id: 2,
     name: "Amaka T.",
     review:
       "Best decision ever! The hair treatment was soothing and effective.",
-    image: "../../src/assets/featured_review2.jpeg",
+    image: featuredReview_2,
   },
   {
     id: 3,
     name: "Lisa M.",
     review: "Professional and friendly service. My scalp feels amazing!",
-    image: "../../src/assets/featured_review3.jpeg",
+    image: featuredReview_3,
   },
   {
     id: 4,
     name: "Chidera K.",
     review:
       "I saw visible results after just a few sessions. Highly recommend!",
-    image: "../../src/assets/featured_review4.jpeg",
+    image: featuredReview_4,
   },
   {
     id: 5,
     name: "Fatima Y.",
     review: "The best haircare service I’ve experienced. Worth every penny!",
-    image: "../../src/assets/featured_review5.jpeg",
+    image: featuredReview_5,
   },
-  { id: 6, image: "../../src/assets/featured_review6.jpeg" },
+  { id: 6, image: featuredReview_6 },
 ];
 
 const FeaturedReviews = () => {
