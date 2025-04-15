@@ -1,9 +1,9 @@
 .products {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 20px;
-  /* background-color: #2C7B54; */
+  background-color: #2c7b54;
 }
 
 .product-item {

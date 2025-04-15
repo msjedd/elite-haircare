@@ -102,7 +102,7 @@ export const products = [
     ingredients:
       "Strengthening black shampoo, Nourishing hair growth oil, Alma butter and Herbal hair growth tea.",
     description:
-      "Our anti-breakage haircare set is specifically designed to help prevent hair from breaking, thinning, or becoming brittle. These sets typically include products like shampoos and treatments that focus on strengthening the hair, making it more resilient to damage in the process of promoting hair growth. Here are the key benefits and what they’re formulated to do: Strengthen Hair Strands, Improve Elasticity, Moisturize and Nourishduce Damage from styling, Prevent Split Ends, Promote Healthier Hair Growth",
+      "Our anti-breakage haircare set is specifically designed to help prevent hair from breaking, thinning, or becoming brittle. These sets typically include products like shampoos and treatments that focus on strengthening the hair, making it more resilient to damage in the process of promoting hair growth. Here are the key benefits and what they’re formulated to do: Strengthen Hair Strands, Improve Elasticity, Moisturize and Nourish,Prevent Split Ends and Promote Healthier Hair Growth.",
     price: 22000,
   },
 
@@ -113,7 +113,7 @@ export const products = [
     ingredients:
       "Strenghtening black shampoo, Nourishing hair growth oil, Alma butter and Herbal hair growth tea.",
     description:
-      "Our Hair Growth set is meant to support both the health of your scalp and the strength of your hair, promoting faster, thicker, and more robust hair growth. It’s ideal if you’re experiencing thinning, shedding, or want to give your hair a boost in growth.",
+      "Our Hair Growth set is meant to support both the health of your scalp and the strength of your hair, promoting faster, thicker, and more robust hair growth. It’s ideal if you’re experiencing thinning, shedding, or want to give your hair a boost in growth. Hey benefits and functions of a hair growth haircare set: Stimulating hair follicles, improving Scalp Health, Strengthening existing hair, Increasing Thickness and Volume,	Reducing Hair Loss,	Improving the Hair Growth Cycle.",
     price: 24500,
   },
 
@@ -124,7 +124,7 @@ export const products = [
     ingredients:
       "Strengthening black shampoo, Alma butter, nourishing hair growth oil, honey black shampoo and herbal hair growth tea",
     description:
-      "Our full haircare set is about providing a comprehensive, step-by-step routine to keep your hair in optimal condition, whether you are looking to treat specific concerns or just maintain healthy hair.",
+      "Our full haircare set is about providing a comprehensive, step-by-step routine to keep your hair in optimal condition, whether you are looking to treat specific concerns or just maintain healthy hair.Here's what our full haircare set does: It Cleanses,Conditions, 	Restores and Strengthens,	Protects,	Adds Shine and Smoothness,	Improves Manageability, and Maintains Long-Term Hair Health.",
     price: 32500,
   },
 ];
